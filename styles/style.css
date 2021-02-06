@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  overflow: hidden;
+}
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  background-color:gb(239 239 234);
+  padding: 20px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+  min-height: 80vh;
+  background-color: orange;
+}
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 2px;
+  background-color: gb(239 239 234);
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+ul li {
+  margin-right: 15px;
+  cursor: pointer;
+}
+ul li a {
+  text-decoration: none;
+  color: #000;
+  transition: text-shadow 0.3s ease-in-out;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+ul li a:hover,
+.name:hover {
+  text-shadow: 1px 2px 3px #0cc0d0;
+  border-bottom: 2px solid #0cc0d0;
+}
+.name {
+  letter-spacing: 2px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.users {
+  font-size: 15px;
+  background: whitesmoke;
+  padding: 8px 5px;
+  margin: 10px 0;
+  border-left: 4px solid whitesmoke;
+  cursor: pointer;
+  text-decoration: none;
+}
+.users:hover {
+  border-left: 4px solid #1c8f99;
+}
+p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.goHome {
+  font-size: 16px;
+  font-weight: 600;
+}
+.users_href {
+  text-decoration: none;
+  color: #000;
+}
+.user__title {
+  text-align: center;
+}
+.goUsers {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  padding: 10px 7px;
+}
+h6 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+h6 span {
+  font-size: 18px;
+}
